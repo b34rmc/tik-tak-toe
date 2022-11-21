@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #27272a;
+  color: white;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .game-status {
+    font-size: 20px;
+    padding: 1rem 2rem;
+  }
+
+  .game-board {
+    .board-row {
+      .square {
+        background: #fff;
+        border: 1px solid black;
+        float: left;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 50px;
+        height: 50px;
+        margin-right: -1px;
+        margin-top: -1px;
+        padding: 0;
+        text-align: center;
+        width: 50px;
+      }
+    }
+  }
+}
